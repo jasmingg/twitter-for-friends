@@ -1,0 +1,136 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  justify-content: center;
+}
+
+#logo, h1, #inputTweet, #publish-button,.input-info, ul, p {
+  display: inline-block;
+  margin: auto;
+  font-family: "roboto";
+}
+
+#logo, h1, #inputTweet, #publish-button, .input-info {
+  user-select: none;
+}
+
+#logo {
+  max-width: 120px;
+}
+
+h1 {
+  font-weight: 500;
+  color: #657786;
+}
+
+#empty-tweets {
+  font-style: italic;
+}
+
+#inputTweet {
+  max-width: 400px;
+  min-width: 400px;
+  margin-top: 10px;
+  border-radius: 6px;
+  border-color: #AAB8C2;
+  border-style: solid;
+  padding: 10px 0px 100px 10px;
+  font-weight: 200;
+  border-width: 1.5px;
+}
+
+.info {
+  border-width: 1px;
+  border-style: solid;
+  padding: 10px 12px;
+  font-size: 14px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+#publish-button {
+  width: 415px;
+  margin-top: 10px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 20px;
+  color:#F5F8FA;
+  transition: .5s;
+}
+
+.blue-publish {
+  background-color: #1DA1F2;
+}
+
+
+.red-publish {
+  background-color: red;
+}
+
+.red-publish:hover {
+  cursor: pointer;
+  background-color: rgb(206, 5, 5);
+}
+.blue-publish:hover {
+  cursor: pointer;
+  background-color: #1586cb;
+}
+
+.tweets-title {
+  color: #AAB8C2;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+ul li {
+border-width: 1px;
+border-style: solid;
+padding: 10px 20px;
+font-size: 14px;
+width: 370px;
+background-color:#F5F8FA;
+border-color: #E1E8ED;
+list-style-type: none;
+margin-right: 40px;
+margin-bottom: 20px;
+word-wrap: break-word;
+}
+
+span {
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.heartDIV {
+  display: inline;
+  margin-left: 90%;
+}
+
+.heartDIV:hover {
+  cursor: pointer;
+  color:#1586cb;
+}
+
+.likesDistance {
+  margin-left: 5px;
+}
+
+.red-like {
+  color: red;
+}
+
+.gray-like {
+  color: rgb(83, 82, 82);
+}

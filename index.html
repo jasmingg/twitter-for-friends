@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Twitter 4 Friends</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    </head>
+    <body>
+        <div class="container">
+          <img id='logo' src="4friends-logo.png">
+          <h1>Twitter 4 Friends</h1>
+          <textarea id="inputTweet" name="input-el" placeholder="Write your Tweet here"></textarea>
+          <div class="input-info">
+          <input class="info" id="from-input" type="text" placeholder="From">
+          <input class="info" id="to-input" type="text" placeholder="To">
+          </div>
+          <button id="publish-button" class="blue-publish">Send Tweet </button>
+          <h1 class="tweets-title"> - Tweets from Friends - </h1>
+          <ul id="all-tweets">
+          </ul>
+          <script src="index.js" type="module"></script>
+        </div>
+    </body>
+</html>
